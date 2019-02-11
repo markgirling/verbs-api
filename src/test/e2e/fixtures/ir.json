@@ -1,0 +1,370 @@
+{
+  "info": {
+    "infinitive": "ir",
+    "translation": "to go",
+    "presentParticiple": "yendo",
+    "pastParticiple": "ido"
+  },
+  "conjugations": [
+    {
+      "conjugation": "voy",
+      "tense": "present",
+      "person": "first",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "vas",
+      "tense": "present",
+      "person": "second",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "va",
+      "tense": "present",
+      "person": "third",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "vamos",
+      "tense": "present",
+      "person": "first_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "vais",
+      "tense": "present",
+      "person": "second_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "van",
+      "tense": "present",
+      "person": "third_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fui",
+      "tense": "preterite",
+      "person": "first",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fuiste",
+      "tense": "preterite",
+      "person": "second",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fue",
+      "tense": "preterite",
+      "person": "third",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fuimos",
+      "tense": "preterite",
+      "person": "first_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fuisteis",
+      "tense": "preterite",
+      "person": "second_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "fueron",
+      "tense": "preterite",
+      "person": "third_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "iba",
+      "tense": "imperfect",
+      "person": "first",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "ibas",
+      "tense": "imperfect",
+      "person": "second",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "iba",
+      "tense": "imperfect",
+      "person": "third",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "íbamos",
+      "tense": "imperfect",
+      "person": "first_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "ibais",
+      "tense": "imperfect",
+      "person": "second_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "iban",
+      "tense": "imperfect",
+      "person": "third_plural",
+      "mood": "indicative"
+    },
+    {
+      "conjugation": "iré",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "first"
+    },
+    {
+      "conjugation": "irás",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "second"
+    },
+    {
+      "conjugation": "irá",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "third"
+    },
+    {
+      "conjugation": "iremos",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "first_plural"
+    },
+    {
+      "conjugation": "iréis",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "second_plural"
+    },
+    {
+      "conjugation": "irán",
+      "mood": "indicative",
+      "tense": "future",
+      "person": "third_plural"
+    },
+    {
+      "conjugation": "iría",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "first"
+    },
+    {
+      "conjugation": "irías",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "second"
+    },
+    {
+      "conjugation": "iría",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "third"
+    },
+    {
+      "conjugation": "iríamos",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "first_plural"
+    },
+    {
+      "conjugation": "iríais",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "second_plural"
+    },
+    {
+      "conjugation": "irían",
+      "mood": "conditional",
+      "tense": "present",
+      "person": "third_plural"
+    },
+    {
+      "conjugation": "vaya",
+      "tense": "present",
+      "person": "first",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "vayas",
+      "tense": "present",
+      "person": "second",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "vaya",
+      "tense": "present",
+      "person": "third",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "vayamos",
+      "tense": "present",
+      "person": "first_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "vayáis",
+      "tense": "present",
+      "person": "second_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "vayan",
+      "tense": "present",
+      "person": "third_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuera",
+      "tense": "imperfect",
+      "person": "first",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fueras",
+      "tense": "imperfect",
+      "person": "second",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuera",
+      "tense": "imperfect",
+      "person": "third",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuéramos",
+      "tense": "imperfect",
+      "person": "first_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuerais",
+      "tense": "imperfect",
+      "person": "second_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fueran",
+      "tense": "imperfect",
+      "person": "third_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuese",
+      "tense": "imperfect_2",
+      "person": "first",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fueses",
+      "tense": "imperfect_2",
+      "person": "second",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuese",
+      "tense": "imperfect_2",
+      "person": "third",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuésemos",
+      "tense": "imperfect_2",
+      "person": "first_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fueseis",
+      "tense": "imperfect_2",
+      "person": "second_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "fuesen",
+      "tense": "imperfect_2",
+      "person": "third_plural",
+      "mood": "subjunctive"
+    },
+    {
+      "conjugation": "undefined",
+      "mood": "imperative",
+      "tense": "affirmative",
+      "person": "first"
+    },
+    {
+      "conjugation": "ve",
+      "tense": "affirmative",
+      "person": "second",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "vaya",
+      "tense": "affirmative",
+      "person": "third",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "vamos; vayamos",
+      "tense": "affirmative",
+      "person": "first_plural",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "id",
+      "mood": "imperative",
+      "tense": "affirmative",
+      "person": "second_plural"
+    },
+    {
+      "conjugation": "vayan",
+      "tense": "affirmative",
+      "person": "third_plural",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "no undefined",
+      "mood": "imperative",
+      "tense": "negative",
+      "person": "first"
+    },
+    {
+      "conjugation": "no vayas",
+      "tense": "negative",
+      "person": "second",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "no vaya",
+      "tense": "negative",
+      "person": "third",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "no vayamos",
+      "tense": "negative",
+      "person": "first_plural",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "no vayáis",
+      "tense": "negative",
+      "person": "second_plural",
+      "mood": "imperative"
+    },
+    {
+      "conjugation": "no vayan",
+      "tense": "negative",
+      "person": "third_plural",
+      "mood": "imperative"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "verb-api",
+  "description": "an api for spanish verb conjugations",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/index.js",
+    "start:dev": "NODE_ENV=development nodemon ./src/index.js",
+    "lint": "eslint './src/**/*.js'",
+    "seed:dev": "knex seed:run --env development",
+    "seed:test": "knex seed:run --env test",
+    "migrate:dev": "knex migrate:latest --env development",
+    "migrate:test": "knex migrate:latest --env test",
+    "migrate:prod": "knex migrate:latest --env production",
+    "test:e2e": "npm run migrate:test && npm run seed:test && NODE_ENV=test jest --forceExit ./src/test/e2e/*.test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}

@@ -1,0 +1,298 @@
+module.exports = {
+  persons: [
+    'first',
+    'second',
+    'third',
+    'first_plural',
+    'second_plural',
+    'third_plural',
+  ],
+
+  moods: [
+    {
+      mood: 'indicative',
+      tenses: ['present', 'preterite', 'imperfect', 'future'],
+    },
+    {
+      mood: 'conditional',
+      tenses: ['present'],
+    },
+    {
+      mood: 'subjunctive',
+      tenses: ['present', 'imperfect', 'imperfect_2'],
+    },
+    {
+      mood: 'imperative',
+      tenses: ['affirmative', 'negative'],
+    },
+  ],
+
+  regularEndings: {
+    ar: {
+      indicative: {
+        present: {
+          first: 'o',
+          second: 'as',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'áis',
+          third_plural: 'an',
+        },
+        preterite: {
+          first: 'é',
+          second: 'aste',
+          third: 'ó',
+          first_plural: 'amos',
+          second_plural: 'asteis',
+          third_plural: 'aron',
+        },
+        imperfect: {
+          first: 'aba',
+          second: 'abas',
+          third: 'aba',
+          first_plural: 'abamos',
+          second_plural: 'abáis',
+          third_plural: 'aban',
+        },
+        future: {
+          first: 'aré',
+          second: 'arás',
+          third: 'ará',
+          first_plural: 'aremos',
+          second_plural: 'aréis',
+          third_plural: 'arán',
+        },
+      },
+      conditional: {
+        present: {
+          first: 'aría',
+          second: 'arías',
+          third: 'aría',
+          first_plural: 'aríamos',
+          second_plural: 'aríais',
+          third_plural: 'arían',
+        },
+      },
+      subjunctive: {
+        present: {
+          first: 'e',
+          second: 'es',
+          third: 'e',
+          first_plural: 'emos',
+          second_plural: 'éis',
+          third_plural: 'en',
+        },
+        imperfect: {
+          first: 'ara',
+          second: 'aras',
+          third: 'ara',
+          first_plural: 'áramos',
+          second_plural: 'arais',
+          third_plural: 'aran',
+        },
+        imperfect_2: {
+          first: 'ase',
+          second: 'ases',
+          third: 'ase',
+          first_plural: 'ásemos',
+          second_plural: 'aseis',
+          third_plural: 'asen',
+        },
+      },
+      imperative: {
+        affirmative: {
+          second: 'a',
+          third: 'e',
+          first_plural: 'emos',
+          second_plural: 'ad',
+          third_plural: 'en',
+        },
+        negative: {
+          second: 'es',
+          third: 'e',
+          first_plural: 'emos',
+          second_plural: 'éis',
+          third_plural: 'en',
+        },
+      },
+    },
+
+    er: {
+      indicative: {
+        present: {
+          first: 'o',
+          second: 'es',
+          third: 'e',
+          first_plural: 'emos',
+          second_plural: 'éis',
+          third_plural: 'en',
+        },
+        preterite: {
+          first: 'í',
+          second: 'iste',
+          third: 'ió',
+          first_plural: 'imos',
+          second_plural: 'isteis',
+          third_plural: 'ieron',
+        },
+        imperfect: {
+          first: 'ía',
+          second: 'ías',
+          third: 'ía',
+          first_plural: 'íamos',
+          second_plural: 'íais',
+          third_plural: 'ían',
+        },
+        future: {
+          first: 'eré',
+          second: 'erás',
+          third: 'erá',
+          first_plural: 'eremos',
+          second_plural: 'eréis',
+          third_plural: 'erán',
+        },
+      },
+      conditional: {
+        present: {
+          first: 'ería',
+          second: 'erías',
+          third: 'ería',
+          first_plural: 'eríamos',
+          second_plural: 'eríais',
+          third_plural: 'erían',
+        },
+      },
+      subjunctive: {
+        present: {
+          first: 'a',
+          second: 'as',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'áis',
+          third_plural: 'an',
+        },
+        imperfect: {
+          first: 'iera',
+          second: 'ieras',
+          third: 'iera',
+          first_plural: 'iéramos',
+          second_plural: 'ierais',
+          third_plural: 'ieran',
+        },
+        imperfect_2: {
+          first: 'iese',
+          second: 'ieses',
+          third: 'iese',
+          first_plural: 'iésemos',
+          second_plural: 'ieseis',
+          third_plural: 'iesen',
+        },
+      },
+      imperative: {
+        affirmative: {
+          second: 'e',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'ed',
+          third_plural: 'an',
+        },
+        negative: {
+          second: 'as',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'áis',
+          third_plural: 'an',
+        },
+      },
+    },
+
+    ir: {
+      indicative: {
+        present: {
+          first: 'o',
+          second: 'es',
+          third: 'e',
+          first_plural: 'imos',
+          second_plural: 'ís',
+          third_plural: 'en',
+        },
+        preterite: {
+          first: 'í',
+          second: 'iste',
+          third: 'ió',
+          first_plural: 'imos',
+          second_plural: 'isteis',
+          third_plural: 'ieron',
+        },
+        imperfect: {
+          first: 'ía',
+          second: 'ías',
+          third: 'ía',
+          first_plural: 'íamos',
+          second_plural: 'íais',
+          third_plural: 'ían',
+        },
+        future: {
+          first: 'iré',
+          second: 'irás',
+          third: 'irá',
+          first_plural: 'iremos',
+          second_plural: 'iréis',
+          third_plural: 'irán',
+        },
+      },
+      conditional: {
+        present: {
+          first: 'iría',
+          second: 'irías',
+          third: 'iría',
+          first_plural: 'iríamos',
+          second_plural: 'iríais',
+          third_plural: 'irían',
+        },
+      },
+      subjunctive: {
+        present: {
+          first: 'a',
+          second: 'as',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'áis',
+          third_plural: 'an',
+        },
+        imperfect: {
+          first: 'iera',
+          second: 'ieras',
+          third: 'iera',
+          first_plural: 'iéramos',
+          second_plural: 'ierais',
+          third_plural: 'ieran',
+        },
+        imperfect_2: {
+          first: 'iese',
+          second: 'ieses',
+          third: 'iese',
+          first_plural: 'iésemos',
+          second_plural: 'ieseis',
+          third_plural: 'iesen',
+        },
+      },
+      imperative: {
+        affirmative: {
+          second: 'e',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'id',
+          third_plural: 'an',
+        },
+        negative: {
+          second: 'as',
+          third: 'a',
+          first_plural: 'amos',
+          second_plural: 'áis',
+          third_plural: 'an',
+        },
+      },
+    },
+  },
+};
