@@ -1,8 +1,16 @@
 const { Socket } = require('net');
 const { execSync } = require('child_process');
 
-const checkForPostgres = () => {
-  return new Promise((resolve, reject) => {
+const pause = () => (
+  new Promise(resolve => {
+    setTimeout(() => {
+      resolve();
+    }, 5000);
+  })
+);
+
+const checkForPostgres = () => (
+  new Promise((resolve, reject) => {
     const socket = new Socket();
 
     const onError = () => {
@@ -18,13 +26,15 @@ const checkForPostgres = () => {
       socket.destroy();
       resolve();
     });
-  });
-};
+  })
+);
 
 const waitForPostgres = async () => {
-  var attempts = 10;
+  const attempts = 10;
 
-  for(var i = 0; i < attempts; i++) {
+  for(let i = 0; i < attempts; i++) {
+    await pause();
+
     try {
       await checkForPostgres();
       return;
@@ -33,7 +43,7 @@ const waitForPostgres = async () => {
     }
   }
 
-  throw new Error('Timed out waiting for postgres. Is the postgres docker image running?')
+  throw new Error('Timed out waiting for postgres. Is the postgres docker image running?');
 };
 
 waitForPostgres().then(() => {
