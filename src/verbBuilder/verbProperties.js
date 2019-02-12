@@ -1,29 +1,33 @@
-module.exports = {
-  persons: [
-    'first',
-    'second',
-    'third',
-    'first_plural',
-    'second_plural',
-    'third_plural',
-  ],
+const persons = [
+  'first',
+  'second',
+  'third',
+  'first_plural',
+  'second_plural',
+  'third_plural',
+];
 
+module.exports = {
   moods: [
     {
       mood: 'indicative',
       tenses: ['present', 'preterite', 'imperfect', 'future'],
+      persons,
     },
     {
       mood: 'conditional',
       tenses: ['present'],
+      persons,
     },
     {
       mood: 'subjunctive',
       tenses: ['present', 'imperfect', 'imperfect_2'],
+      persons,
     },
     {
       mood: 'imperative',
       tenses: ['affirmative', 'negative'],
+      persons: persons.slice(1),
     },
   ],
 
@@ -50,8 +54,8 @@ module.exports = {
           first: 'aba',
           second: 'abas',
           third: 'aba',
-          first_plural: 'abamos',
-          second_plural: 'abáis',
+          first_plural: 'ábamos',
+          second_plural: 'abais',
           third_plural: 'aban',
         },
         future: {

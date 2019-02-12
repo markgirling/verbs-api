@@ -1,4 +1,4 @@
-const addRegularConjugations = require('../verbBuilder/addRegularConjugations');
+const buildConjugations = require('../verbBuilder/buildConjugations');
 
 const extractInfo = (resultRow) => {
   const {
@@ -36,12 +36,12 @@ module.exports = (verbResults) => {
   if (verbResults.length === 1 && !verbResults[0].conjugationid) {
     return {
       info,
-      conjugations: addRegularConjugations(info.infinitive, []),
+      conjugations: buildConjugations(info.infinitive, []),
     };
   }
 
   return {
     info,
-    conjugations: addRegularConjugations(info.infinitive, extractConjugations(verbResults)),
+    conjugations: buildConjugations(info.infinitive, extractConjugations(verbResults)),
   };
 };

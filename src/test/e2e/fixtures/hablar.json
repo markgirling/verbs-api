@@ -5,366 +5,266 @@
     "presentParticiple": "hablando",
     "pastParticiple": "hablado"
   },
-  "conjugations": [
-    {
-      "conjugation": "hablo",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "first"
+  "conjugations": {
+    "indicative": {
+      "present": {
+        "first": {
+          "conjugation": "hablo",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablas",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "habla",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablamos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "habláis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablan",
+          "regular": true
+        }
+      },
+      "preterite": {
+        "first": {
+          "conjugation": "hablé",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablaste",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "habló",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablamos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablasteis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablaron",
+          "regular": true
+        }
+      },
+      "imperfect": {
+        "first": {
+          "conjugation": "hablaba",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablabas",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hablaba",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablábamos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablabais",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablaban",
+          "regular": true
+        }
+      },
+      "future": {
+        "first": {
+          "conjugation": "hablaré",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablarás",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hablará",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablaremos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablaréis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablarán",
+          "regular": true
+        }
+      }
     },
-    {
-      "conjugation": "hablas",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "second"
+    "conditional": {
+      "present": {
+        "first": {
+          "conjugation": "hablaría",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablarías",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hablaría",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablaríamos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablaríais",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablarían",
+          "regular": true
+        }
+      }
     },
-    {
-      "conjugation": "habla",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "third"
+    "subjunctive": {
+      "present": {
+        "first": {
+          "conjugation": "hable",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hables",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hable",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablemos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "habléis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablen",
+          "regular": true
+        }
+      },
+      "imperfect": {
+        "first": {
+          "conjugation": "hablara",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablaras",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hablara",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "habláramos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablarais",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablaran",
+          "regular": true
+        }
+      },
+      "imperfect_2": {
+        "first": {
+          "conjugation": "hablase",
+          "regular": true
+        },
+        "second": {
+          "conjugation": "hablases",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hablase",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablásemos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablaseis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablasen",
+          "regular": true
+        }
+      }
     },
-    {
-      "conjugation": "hablamos",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "habláis",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablan",
-      "mood": "indicative",
-      "tense": "present",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablé",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablaste",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "second"
-    },
-    {
-      "conjugation": "habló",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablamos",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablasteis",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablaron",
-      "mood": "indicative",
-      "tense": "preterite",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablaba",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablabas",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "second"
-    },
-    {
-      "conjugation": "hablaba",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablabamos",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablabáis",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablaban",
-      "mood": "indicative",
-      "tense": "imperfect",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablaré",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablarás",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "second"
-    },
-    {
-      "conjugation": "hablará",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablaremos",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablaréis",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablarán",
-      "mood": "indicative",
-      "tense": "future",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablaría",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablarías",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "second"
-    },
-    {
-      "conjugation": "hablaría",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablaríamos",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablaríais",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablarían",
-      "mood": "conditional",
-      "tense": "present",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hable",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "first"
-    },
-    {
-      "conjugation": "hables",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "second"
-    },
-    {
-      "conjugation": "hable",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablemos",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "habléis",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablen",
-      "mood": "subjunctive",
-      "tense": "present",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablara",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablaras",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "second"
-    },
-    {
-      "conjugation": "hablara",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "third"
-    },
-    {
-      "conjugation": "habláramos",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablarais",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablaran",
-      "mood": "subjunctive",
-      "tense": "imperfect",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablase",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "first"
-    },
-    {
-      "conjugation": "hablases",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "second"
-    },
-    {
-      "conjugation": "hablase",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablásemos",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablaseis",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablasen",
-      "mood": "subjunctive",
-      "tense": "imperfect_2",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "hablundefined",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "first"
-    },
-    {
-      "conjugation": "habla",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "second"
-    },
-    {
-      "conjugation": "hable",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "third"
-    },
-    {
-      "conjugation": "hablemos",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "hablad",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "hablen",
-      "mood": "imperative",
-      "tense": "affirmative",
-      "person": "third_plural"
-    },
-    {
-      "conjugation": "no hablundefined",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "first"
-    },
-    {
-      "conjugation": "no hables",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "second"
-    },
-    {
-      "conjugation": "no hable",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "third"
-    },
-    {
-      "conjugation": "no hablemos",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "first_plural"
-    },
-    {
-      "conjugation": "no habléis",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "second_plural"
-    },
-    {
-      "conjugation": "no hablen",
-      "mood": "imperative",
-      "tense": "negative",
-      "person": "third_plural"
+    "imperative": {
+      "affirmative": {
+        "second": {
+          "conjugation": "habla",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "hable",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "hablemos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "hablad",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "hablen",
+          "regular": true
+        }
+      },
+      "negative": {
+        "second": {
+          "conjugation": "no hables",
+          "regular": true
+        },
+        "third": {
+          "conjugation": "no hable",
+          "regular": true
+        },
+        "first_plural": {
+          "conjugation": "no hablemos",
+          "regular": true
+        },
+        "second_plural": {
+          "conjugation": "no habléis",
+          "regular": true
+        },
+        "third_plural": {
+          "conjugation": "no hablen",
+          "regular": true
+        }
+      }
     }
-  ]
+  }
 }
