@@ -1,3 +1,3 @@
 /* Very brief SQL script for creating the development and test databases */
-CREATE DATABASE db;
-CREATE DATABASE db_test;
+CREATE DATABASE verbs;
+CREATE DATABASE verbs_test;

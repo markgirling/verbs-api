@@ -1,11 +1,11 @@
 module.exports = {
   development: {
     client: 'pg',
-    connection: process.env.DB_CONNECTION_STRING || 'postgresql://postgres:postgres@postgres:5432/db'
+    connection: process.env.DB_CONNECTION_STRING || 'postgresql://postgres:postgres@postgres:5432/verbs'
   },
   test: {
     client: 'pg',
-    connection: process.env.DB_CONNECTION_STRING || 'postgresql://postgres:postgres@postgres:5432/db_test'
+    connection: process.env.DB_CONNECTION_STRING || 'postgresql://postgres:postgres@postgres:5432/verbs_test'
   },
   production: {
     client: 'pg',
